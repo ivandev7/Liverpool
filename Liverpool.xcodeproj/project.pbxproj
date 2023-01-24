@@ -9,21 +9,42 @@
 /* Begin PBXBuildFile section */
 		48EB978A297F43380001A609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB9789297F43380001A609 /* AppDelegate.swift */; };
 		48EB978C297F43380001A609 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB978B297F43380001A609 /* SceneDelegate.swift */; };
-		48EB978E297F43380001A609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB978D297F43380001A609 /* ViewController.swift */; };
+		48EB978E297F43380001A609 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB978D297F43380001A609 /* ProductsViewController.swift */; };
 		48EB9791297F43380001A609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EB978F297F43380001A609 /* Main.storyboard */; };
 		48EB9793297F433A0001A609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48EB9792297F433A0001A609 /* Assets.xcassets */; };
 		48EB9796297F433A0001A609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48EB9794297F433A0001A609 /* LaunchScreen.storyboard */; };
+		48EB97A4297F44730001A609 /* ProductsTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97A3297F44730001A609 /* ProductsTableViewDataSource.swift */; };
+		48EB97A6297F44850001A609 /* ProductsTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97A5297F44850001A609 /* ProductsTableViewDelegate.swift */; };
+		48EB97A8297F44A60001A609 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97A7297F44A60001A609 /* ProductsView.swift */; };
+		48EB97AA297F44B60001A609 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97A9297F44B60001A609 /* ProductCell.swift */; };
+		48EB97AC297F44C20001A609 /* ProductsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97AB297F44C20001A609 /* ProductsAPIClient.swift */; };
+		48EB97AE297F44FB0001A609 /* ResultsModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97AD297F44FB0001A609 /* ResultsModelResponse.swift */; };
+		48EB97B0297F45160001A609 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97AF297F45160001A609 /* ProductModel.swift */; };
+		48EB97B2297F51F90001A609 /* RecordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97B1297F51F90001A609 /* RecordsModel.swift */; };
+		48EB97B4297F52880001A609 /* VariantsColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97B3297F52880001A609 /* VariantsColor.swift */; };
+		48EB97B7297F5CC00001A609 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 48EB97B6297F5CC00001A609 /* SDWebImage */; };
+		48EB97BB297F70730001A609 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB97BA297F70730001A609 /* SearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48EB9786297F43380001A609 /* Liverpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liverpool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EB9789297F43380001A609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48EB978B297F43380001A609 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48EB978D297F43380001A609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48EB978D297F43380001A609 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 		48EB9790297F43380001A609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48EB9792297F433A0001A609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48EB9795297F433A0001A609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48EB9797297F433A0001A609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48EB97A3297F44730001A609 /* ProductsTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewDataSource.swift; sourceTree = "<group>"; };
+		48EB97A5297F44850001A609 /* ProductsTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewDelegate.swift; sourceTree = "<group>"; };
+		48EB97A7297F44A60001A609 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		48EB97A9297F44B60001A609 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		48EB97AB297F44C20001A609 /* ProductsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAPIClient.swift; sourceTree = "<group>"; };
+		48EB97AD297F44FB0001A609 /* ResultsModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsModelResponse.swift; sourceTree = "<group>"; };
+		48EB97AF297F45160001A609 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		48EB97B1297F51F90001A609 /* RecordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsModel.swift; sourceTree = "<group>"; };
+		48EB97B3297F52880001A609 /* VariantsColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariantsColor.swift; sourceTree = "<group>"; };
+		48EB97BA297F70730001A609 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EB97B7297F5CC00001A609 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +80,55 @@
 			children = (
 				48EB9789297F43380001A609 /* AppDelegate.swift */,
 				48EB978B297F43380001A609 /* SceneDelegate.swift */,
-				48EB978D297F43380001A609 /* ViewController.swift */,
-				48EB978F297F43380001A609 /* Main.storyboard */,
+				48EB979D297F43970001A609 /* Products */,
 				48EB9792297F433A0001A609 /* Assets.xcassets */,
 				48EB9794297F433A0001A609 /* LaunchScreen.storyboard */,
 				48EB9797297F433A0001A609 /* Info.plist */,
 			);
 			path = Liverpool;
+			sourceTree = "<group>";
+		};
+		48EB979D297F43970001A609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48EB979E297F43DE0001A609 /* Model */,
+				48EB979F297F43E20001A609 /* View */,
+				48EB97A0297F43E60001A609 /* Controller */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		48EB979E297F43DE0001A609 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48EB97AB297F44C20001A609 /* ProductsAPIClient.swift */,
+				48EB97AD297F44FB0001A609 /* ResultsModelResponse.swift */,
+				48EB97B1297F51F90001A609 /* RecordsModel.swift */,
+				48EB97AF297F45160001A609 /* ProductModel.swift */,
+				48EB97B3297F52880001A609 /* VariantsColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48EB979F297F43E20001A609 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48EB978F297F43380001A609 /* Main.storyboard */,
+				48EB97A7297F44A60001A609 /* ProductsView.swift */,
+				48EB97A9297F44B60001A609 /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48EB97A0297F43E60001A609 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48EB978D297F43380001A609 /* ProductsViewController.swift */,
+				48EB97A3297F44730001A609 /* ProductsTableViewDataSource.swift */,
+				48EB97A5297F44850001A609 /* ProductsTableViewDelegate.swift */,
+				48EB97BA297F70730001A609 /* SearchController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,9 @@
 			dependencies = (
 			);
 			name = Liverpool;
+			packageProductDependencies = (
+				48EB97B6297F5CC00001A609 /* SDWebImage */,
+			);
 			productName = Liverpool;
 			productReference = 48EB9786297F43380001A609 /* Liverpool.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,9 @@
 				Base,
 			);
 			mainGroup = 48EB977D297F43380001A609;
+			packageReferences = (
+				48EB97B5297F5CC00001A609 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 48EB9787297F43380001A609 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +208,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48EB978E297F43380001A609 /* ViewController.swift in Sources */,
+				48EB97B2297F51F90001A609 /* RecordsModel.swift in Sources */,
+				48EB978E297F43380001A609 /* ProductsViewController.swift in Sources */,
 				48EB978A297F43380001A609 /* AppDelegate.swift in Sources */,
+				48EB97BB297F70730001A609 /* SearchController.swift in Sources */,
+				48EB97AA297F44B60001A609 /* ProductCell.swift in Sources */,
+				48EB97AE297F44FB0001A609 /* ResultsModelResponse.swift in Sources */,
+				48EB97AC297F44C20001A609 /* ProductsAPIClient.swift in Sources */,
+				48EB97A8297F44A60001A609 /* ProductsView.swift in Sources */,
+				48EB97A4297F44730001A609 /* ProductsTableViewDataSource.swift in Sources */,
 				48EB978C297F43380001A609 /* SceneDelegate.swift in Sources */,
+				48EB97B4297F52880001A609 /* VariantsColor.swift in Sources */,
+				48EB97A6297F44850001A609 /* ProductsTableViewDelegate.swift in Sources */,
+				48EB97B0297F45160001A609 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48EB97B5297F5CC00001A609 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48EB97B6297F5CC00001A609 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48EB97B5297F5CC00001A609 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48EB977E297F43380001A609 /* Project object */;
 }
